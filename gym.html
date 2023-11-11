@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vidit fitness</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    /*css reset*/
+    body{color:white;
+        margin:0px;
+        padding:0px;
+        background:url('images for project.jpg');
+    }
+    .left{display:inline-block;
+
+position:absolute;
+left:34px;
+top:20px;
+
+    }
+    .mid{display:block;
+        width:33%;
+        margin:20px auto;
+    
+        top:0px;
+    }
+    .right{display:inline-block;
+        
+        position:absolute;
+        right:34px;
+        top: 20px; 
+    }
+    .navbar{
+        display: inline-block;
+
+    }
+    .navbar li{ 
+        display: inline-block;
+        font-size:15px;
+    }
+    .navbar li a{color:white;
+    text-decoration: none;
+    padding:34px 23px;}
+    .btn{
+        margin:0px 9px;
+        color:white;
+        background-color:rgb(167, 165, 165);
+        padding:4px 14px;
+        border:2px solid rgb(167, 165, 165);
+        border-radius:10px;
+        font-size: 15px;
+    }
+    .container{
+        
+        margin:2px 2px;
+        padding:75px;
+        width:33%;
+        border-radius:28px;
+
+    }
+    .form.group.input{
+        font-size:25px;
+        text-align: center;
+        display: block ;
+        width:34px;
+        padding:1px;
+        border:2px solid black;
+        margin:3px auto;
+        border-radius:8px;      
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    .container.h1{
+        text-align:center;
+    }
+    .container button{
+        display:block;
+        width: 23%;
+        margin:auto;
+    }
+
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo-->
+        <div class="left">
+      <img src="logo.png" width="90" alt="">
+      <div>VIDIT FITNESS</div>
+</div>
+<!-- mid box for navbar-->
+<div class="mid">
+    <ul class="navbar">
+        <li><a href="#" ></a>Home</li>
+        <li><a href="#"></a>About us</li>
+        <li><a href="#"></a>Fitness calculator</li>
+        <li><a href="#"></a>Contact us</li>
+    
+</div>
+<!-- right box for buttons-->
+<div class="right">
+    <button class="btn">call us</button>
+    <button class="btn">Email us</button>
+</div>
+    </header>
+    <div class="container">
+        <h1>join the best gym of jaipur now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your NAME">
+                <input type="text" name="" placeholder="enter your AGE">
+                <input type="text" name="" placeholder="enter your GENDER">
+                <input type="text" name="" placeholder="enter your ADDRESS">
+            </div>
+           <button class="btn">SUBMIT</button>
+</form>
+    </div>
+    
+</body>
+</html>
